@@ -1,41 +1,137 @@
-```
-# Qt/Linguist files
+#Translations
+*.ts
+
+#Build artifacts
 *.qm
-*.ts.backup
+*.mo
+*.po~
 
-# Build artifacts
-SandboxiePlus/*/Debug/
-SandboxiePlus/*/Release/
-SandboxiePlus/*/build/
-*.obj
-*.lib
-*.pdb
-*.ilk
-*.exp
-*.iobj
-*.ipdb
+#Qt specific
+*.pro.user
+*.pro.user.*
+*.pri~
+moc_*
+qrc_*
+ui_*
 
-# Dependencies
-*.user
-*.sdf
-*.opensdf
-*.VC.db
-
-# Logs
-*.log
-
-# Temp files
+#Temp files
 *.tmp
+*.bak
 *~
 .swp
 .swo
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# OS specific
+#OS generated files
 .DS_Store
 Thumbs.db
-```
+ehthumbs.db
+Icon?
+.directory
+.Spotlight-V100
+.Trashes
+._*
+
+#Log files
+*.log
+
+#Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+#Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+#Node modules
+node_modules/
+
+#Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+#IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.tmp
+*.bak
+*~
+.swp
+.swo
+
+#Testing
+nosetests.xml
+coverage.xml
+
+#CI
+.github/
+.circleci/
+.travis.yml
+appveyor.yml
+.codecov.yml
+codecov.yml
+
+#Compression
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.7z
+*.rar
+*.gz
+*.bz2
+*.xz
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+
+#Images (not ignored as per instructions)
+#*.png
+#*.jpg
+#*.jpeg
+#*.bmp
+#*.gif
+#*.webm
+
+#Additional Qt/Sandboxie specific
+SandboxiePlus/build/
+SandboxiePlus/*/build/
+SandboxiePlus/*/*.pro.user
+SandboxiePlus/*/*.pro.user.*
+SandboxiePlus/*/Debug/
+SandboxiePlus/*/Release/
+debug/
+release/
