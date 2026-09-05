@@ -144,18 +144,7 @@
         <source>On this page advanced sandbox options can be configured.</source>
         <translation>在此页面可以配置沙盒高级选项。</translation>
     </message>
-    <message>
-        <source>Network Access</source>
-    </message>
-    <message>
-        <source>Allow network/internet access</source>
-    </message>
-    <message>
-        <source>Block network/internet by denying access to Network devices</source>
-    </message>
-    <message>
-        <source>Block network/internet using Windows Filtering Platform</source>
-    </message>
+
     <message>
         <source>Allow access to network files and folders</source>
         <oldsource>Allow access to network files and fodlers</oldsource>
@@ -164,21 +153,7 @@
         <source>This option is not recommended for Hardened boxes</source>
         <oldsource>This option is not recomended for Hardened boxes</oldsource>
     </message>
-    <message>
-        <source>Admin Options</source>
-    </message>
-    <message>
-        <source>Drop rights from Administrators and Power Users groups</source>
-    </message>
-    <message>
-        <source>Make applications think they are running elevated</source>
-    </message>
-    <message>
-        <source>Allow MSIServer to run with a sandboxed system token</source>
-    </message>
-    <message>
-        <source>Use a Sandboxie login instead of an anonymous token</source>
-    </message>
+
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="927"/>
         <source>Advanced Options</source>
@@ -261,12 +236,7 @@ To disable this template for a sandbox, simply uncheck it in the template list.<
         <source>This option specifies the template to be used in shared template mode. (%1)</source>
         <translation>此选项指定在共享模板模式下使用的模板。 (%1)</translation>
     </message>
-    <message>
-        <source>This setting adds a local template or its settings to the sandbox configuration so that the settings in that template are shared between sandboxes.
-However, if &apos;use as a template&apos; option is selected as the sharing mode, some settings may not be reflected in the user interface.
-To change the template&apos;s settings, simply locate the &apos;SharedTemplate&apos; template in the App Templates list under Sandbox Options, then double-click on it to edit it.
-To disable this template for a sandbox, simply uncheck it in the template list.</source>
-    </message>
+    
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="960"/>
         <source>Disabled</source>
@@ -282,20 +252,7 @@ To disable this template for a sandbox, simply uncheck it in the template list.<
         <source>Append to the configuration</source>
         <translation>追加到配置中</translation>
     </message>
-    <message>
-        <source>Use a shared local template</source>
-    </message>
-    <message>
-        <source>This setting adds a local template to the sandbox configuration so that the settings in that template are shared between sandboxes. However, some settings added to the template may not be reflected in the user interface.
-To change the template&apos;s settings, simply locate and edit the &apos;SharedTemplate&apos; template in the App Templates list under Sandbox Options.
-To disable this template for a sandbox, simply uncheck it in the template list.</source>
-    </message>
-    <message>
-        <source>Use a Sandboxie login instead of an anonymous token (experimental)</source>
-    </message>
-    <message>
-        <source>Using a custom Sandboxie Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
-    </message>
+
 </context>
 <context>
     <name>CBeginPage</name>
@@ -544,9 +501,7 @@ increases to 512 bits with the application of Leet (L337) speak modifications, a
         <source>Exists!</source>
         <translation>已存在！</translation>
     </message>
-    <message>
-        <source>Select file name</source>
-    </message>
+    
     <message>
         <location filename="BoxTransfer.cpp" line="698"/>
         <source>7-Zip Archive (*.7z);;Zip Archive (*.zip)</source>
@@ -580,9 +535,7 @@ increases to 512 bits with the application of Leet (L337) speak modifications, a
         <source>Cannot export: Sandbox has running processes.</source>
         <translation>无法导出：沙盒中有进程运行中</translation>
     </message>
-    <message>
-        <source>Cannot export: Sandbox is empty.</source>
-    </message>
+    
     <message>
         <location filename="BoxTransfer.cpp" line="531"/>
         <source>Nothing selected for export.</source>
@@ -669,12 +622,7 @@ increases to 512 bits with the application of Leet (L337) speak modifications, a
         <source>Failed to open archive, wrong password?</source>
         <translation>无法打开存档，密码错误？</translation>
     </message>
-    <message>
-        <source>Failed to open archive (%1)!</source>
-    </message>
-    <message>
-        <source>The archive does not contain any sandbox data.</source>
-    </message>
+
     <message>
         <location filename="BoxTransfer.cpp" line="1186"/>
         <source>Nothing selected for import.</source>
@@ -800,9 +748,7 @@ While the level of isolation is reduced compared to other box types, it offers i
         <source>&lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Encrypt&lt;/a&gt; Box content and set &lt;a href=&quot;sbie://docs/black-box&quot;&gt;Confidential&lt;/a&gt;</source>
         <translation>&lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;加密&lt;/a&gt; 沙盒内容并启用 &lt;a href=&quot;sbie://docs/black-box&quot;&gt;保密功能&lt;/a&gt;</translation>
     </message>
-    <message>
-        <source>&lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Encrypted&lt;/a&gt; &lt;a href=&quot;sbie://docs/black-box&quot;&gt;Confidential&lt;/a&gt; Box</source>
-    </message>
+    
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="459"/>
         <source>In this box type the sandbox uses an encrypted disk image as its root folder. This provides an additional layer of privacy and security. 
@@ -1212,11 +1158,7 @@ You can click Finish to close this wizard.</oldsource>
 
 您可以点击“完成”关闭此向导。</translation>
     </message>
-    <message>
-        <source>Thank you for using the Troubleshooting Wizard for Sandboxie-Plus. We apologize for any inconvenience you experienced during the process.If you have any additional questions or need further assistance, please don&apos;t hesitate to reach out. We&apos;re here to help. Thank you for your understanding and cooperation.
-
-You can click Finish to close this wizard.</source>
-    </message>
+    
 </context>
 <context>
     <name>CCompressDialog</name>
@@ -1623,9 +1565,7 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         <source>Almost complete, click Finish to apply all selected options and conclude the wizard.</source>
         <translation>设置完成，请点击 &quot;完成&quot;，应用所有选定的选项，并结束此向导。</translation>
     </message>
-    <message>
-        <source>Keep Sandboxie-Plus up to date.</source>
-    </message>
+    
 </context>
 <context>
     <name>CFinishTemplatePage</name>
@@ -1760,50 +1700,13 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         <source>Attention</source>
         <translation>注意</translation>
     </message>
-    <message>
-        <source>Advanced</source>
-    </message>
-    <message>
-        <source>Debug</source>
-    </message>
-    <message>
-        <source>File</source>
-    </message>
-    <message>
-        <source>General</source>
-    </message>
-    <message>
-        <source>Network</source>
-    </message>
-    <message>
-        <source>Program Control</source>
-    </message>
-    <message>
-        <source>Resource Access</source>
-    </message>
-    <message>
-        <source>Security</source>
-    </message>
-    <message>
-        <source>Template</source>
-    </message>
-    <message>
-        <source>Various</source>
-    </message>
+
     <message>
         <location filename="Helpers/IniHighlighter.cpp" line="2106"/>
         <source>Category</source>
         <translation>类别</translation>
     </message>
-    <message>
-        <source>Global</source>
-    </message>
-    <message>
-        <source>Per Sandbox</source>
-    </message>
-    <message>
-        <source>User Settings</source>
-    </message>
+
     <message>
         <location filename="Helpers/IniHighlighter.cpp" line="2107"/>
         <source>Context</source>
@@ -1826,33 +1729,7 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         <source>Description</source>
         <translation>说明</translation>
     </message>
-    <message>
-        <source>Supporter Certificate</source>
-    </message>
-    <message>
-        <source>Advanced Encryption Pack</source>
-    </message>
-    <message>
-        <source>Requires: %1</source>
-    </message>
-    <message>
-        <source> + </source>
-    </message>
-    <message>
-        <source>Requires an Advanced Encryption Pack</source>
-    </message>
-    <message>
-        <source>Requires a Supporter Certificate</source>
-    </message>
-    <message>
-        <source>Certificate</source>
-    </message>
-    <message>
-        <source>Build</source>
-    </message>
-    <message>
-        <source>Requires an Insider Build</source>
-    </message>
+
 </context>
 <context>
     <name>CIntroPage</name>
@@ -2047,36 +1924,11 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
 </context>
 <context>
     <name>CMultiErrorDialog</name>
-    <message>
-        <source>Sandboxie-Plus - Error</source>
-    </message>
-    <message>
-        <source>Message</source>
-    </message>
+
 </context>
 <context>
     <name>CNewBoxWindow</name>
-    <message>
-        <source>Sandboxie-Plus - Create New Box</source>
-    </message>
-    <message>
-        <source>Hardened Sandbox with Data Protection</source>
-    </message>
-    <message>
-        <source>Security Hardened Sandbox</source>
-    </message>
-    <message>
-        <source>Sandbox with Data Protection</source>
-    </message>
-    <message>
-        <source>Standard Isolation Sandbox (Default)</source>
-    </message>
-    <message>
-        <source>Application Compartment with Data Protection</source>
-    </message>
-    <message>
-        <source>Application Compartment (NO Isolation)</source>
-    </message>
+
 </context>
 <context>
     <name>CNewBoxWizard</name>
@@ -2202,9 +2054,7 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         <source>&lt;p&gt;Do you want to download the updates?&lt;/p&gt;</source>
         <translation>&lt;p&gt;是否下载此更新包？&lt;/p&gt;</translation>
     </message>
-    <message>
-        <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;update page&lt;/a&gt;?&lt;/p&gt;</source>
-    </message>
+    
     <message>
         <location filename="OnlineUpdater.cpp" line="779"/>
         <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;download page&lt;/a&gt;?&lt;/p&gt;</source>
@@ -2278,17 +2128,13 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         <source>&lt;p&gt;Updates for Sandboxie-Plus have been downloaded.&lt;/p&gt;&lt;p&gt;Do you want to apply these updates? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Sandboxie-Plus 的更新已下载。&lt;/p&gt;&lt;p&gt;是否安装更新？本操作需要终止所有沙盒中运行的程序。&lt;/p&gt;</translation>
     </message>
-    <message>
-        <source>Failed to download file from: %1</source>
-    </message>
+    
     <message>
         <location filename="OnlineUpdater.cpp" line="1112"/>
         <source>Downloading installer...</source>
         <translation>下载中安装程序……</translation>
     </message>
-    <message>
-        <source>Failed to download installer from: %1</source>
-    </message>
+    
     <message>
         <location filename="OnlineUpdater.cpp" line="1159"/>
         <source>&lt;p&gt;A new Sandboxie-Plus installer has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
@@ -2332,15 +2178,7 @@ Note: The update check is often behind the latest GitHub release to ensure that 
 
 注意: 更新检查通常落后于 GitHub 发布的版本，以确保只提供经过测试的更新。</translation>
     </message>
-    <message>
-        <source>Checking for certificate...</source>
-    </message>
-    <message>
-        <source>No certificate found on server!</source>
-    </message>
-    <message>
-        <source>There is no updated certificate available.</source>
-    </message>
+
 </context>
 <context>
     <name>COptionsWindow</name>
@@ -2534,9 +2372,7 @@ Note: The update check is often behind the latest GitHub release to ensure that 
         <oldsource>This option requires a valid supporter certificate</oldsource>
         <translation>此选项需要一份有效的赞助者证书</translation>
     </message>
-    <message>
-        <source>Supporter exclusive option</source>
-    </message>
+    
     <message>
         <location filename="Windows/OptionsGeneral.cpp" line="55"/>
         <source>Don&apos;t alter the window title</source>
@@ -2563,9 +2399,7 @@ Note: The update check is often behind the latest GitHub release to ensure that 
         <source>Show only when title is in focus</source>
         <translation>仅在标题栏获取焦点时显示</translation>
     </message>
-    <message>
-        <source>Always show</source>
-    </message>
+    
     <message>
         <location filename="Windows/OptionsGeneral.cpp" line="83"/>
         <source>Hardened Sandbox with Data Protection</source>
@@ -2591,9 +2425,7 @@ Note: The update check is often behind the latest GitHub release to ensure that 
         <source>Application Compartment with Data Protection</source>
         <translation>带有数据保护功能的应用隔间</translation>
     </message>
-    <message>
-        <source>Application Compartment (NO Isolation)</source>
-    </message>
+    
     <message>
         <location filename="Windows/OptionsGeneral.cpp" line="24"/>
         <source>This option requires an active &lt;b&gt;advanced&lt;/b&gt; supporter certificate</source>
@@ -2891,38 +2723,13 @@ Choose autocomplete mode:
         <source>Keeps autocomplete suggestions disabled.</source>
         <translation>保持自动补全建议处于禁用状态。</translation>
     </message>
-    <message>
-        <source>If you are unsure about the settings displayed in the autocomplete popup, we strongly recommend consulting the software&apos;s documentation or source code before proceeding. Enabling this feature without proper understanding may lead to unintended consequences, for which you will be solely responsible.
 
-Choose autocomplete mode:
-• Basic: Manual completion (Ctrl+Space) with case correction
-• Full: Automatic completion while typing with case correction</source>
-    </message>
-    <message>
-        <source>Basic</source>
-    </message>
-    <message>
-        <source>Enable manual completion only (Ctrl+Space) with case correction</source>
-    </message>
-    <message>
-        <source>Full</source>
-    </message>
-    <message>
-        <source>Enable automatic completion while typing with case correction</source>
-    </message>
     <message>
         <location filename="Windows/OptionsWindow.cpp" line="1862"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
-    <message>
-        <source>Keep autocomplete disabled</source>
-    </message>
-    <message>
-        <source>If you are unsure about the settings displayed in the autocomplete popup, we strongly recommend consulting the software&apos;s documentation or source code before proceeding. Enabling this feature without proper understanding may lead to unintended consequences, for which you will be solely responsible.
 
-Do you wish to enable autocomplete?</source>
-    </message>
     <message>
         <location filename="Windows/OptionsGeneral.cpp" line="951"/>
         <source>kilobytes (%1)</source>
@@ -3252,9 +3059,7 @@ Do you wish to enable autocomplete?</source>
         <source>Please enter a file extension to be excluded</source>
         <translation>请输入一个要排除的文件扩展名</translation>
     </message>
-    <message>
-        <source>Please enter a program file name</source>
-    </message>
+    
     <message>
         <location filename="Windows/OptionsTemplates.cpp" line="56"/>
         <source>All Categories</source>
@@ -3422,9 +3227,7 @@ Please select a folder which contains this file.</source>
         <oldsource> entry: IP or Port cannot be empty</oldsource>
         <translation>第 %1 项：IP 或端口号不能为空</translation>
     </message>
-    <message>
-        <source> entry: Address must be IP, not host name</source>
-    </message>
+    
     <message>
         <location filename="Windows/OptionsAdvanced.cpp" line="1369"/>
         <location filename="Windows/OptionsNetwork.cpp" line="336"/>
@@ -3645,9 +3448,7 @@ Please select a folder which contains this file.</source>
         <source>Sandboxie-Plus Notifications</source>
         <translation>Sandboxie-Plus 通知</translation>
     </message>
-    <message>
-        <source>PID %1</source>
-    </message>
+    
     <message>
         <location filename="Windows/PopUpWindow.cpp" line="315"/>
         <source>Do you want to allow the print spooler to write outside the sandbox for %1 (%2)?</source>
@@ -3838,78 +3639,7 @@ Full path: %4</source>
 </context>
 <context>
     <name>CResourceView</name>
-    <message>
-        <source>Refresh</source>
-    </message>
-    <message>
-        <source>Refresh resource data now</source>
-    </message>
-    <message>
-        <source>Terminate Process</source>
-    </message>
-    <message>
-        <source>Terminate the selected process</source>
-    </message>
-    <message>
-        <source>Terminate All in Box</source>
-    </message>
-    <message>
-        <source>Terminate all processes in the selected sandbox</source>
-    </message>
-    <message>
-        <source>Expand All</source>
-    </message>
-    <message>
-        <source>Collapse All</source>
-    </message>
-    <message>
-        <source>Filter:</source>
-    </message>
-    <message>
-        <source>Search sandbox or process...</source>
-    </message>
-    <message>
-        <source>Sandbox / Process</source>
-    </message>
-    <message>
-        <source>PID</source>
-    </message>
-    <message>
-        <source>CPU</source>
-    </message>
-    <message>
-        <source>Working Set</source>
-    </message>
-    <message>
-        <source>Private Bytes</source>
-    </message>
-    <message>
-        <source>Status</source>
-    </message>
-    <message>
-        <source>Active</source>
-    </message>
-    <message>
-        <source>Inactive</source>
-    </message>
-    <message>
-        <source>Empty</source>
-    </message>
-    <message>
-        <source>Running</source>
-    </message>
-    <message>
-        <source>Boxes: %1 (%2 active)  |  Processes: %3  |  Total Memory: %4</source>
-    </message>
-    <message>
-        <source>Are you sure you want to terminate %1 process(es)?</source>
-    </message>
-    <message>
-        <source>Terminate Sandbox</source>
-    </message>
-    <message>
-        <source>Are you sure you want to terminate all processes in %1 sandbox(es)?</source>
-    </message>
+
 </context>
 <context>
     <name>CRunPage</name>
@@ -4139,9 +3869,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         <source> (Virtual)</source>
         <translation> (虚拟)</translation>
     </message>
-    <message>
-        <source>API Log</source>
-    </message>
+    
     <message>
         <location filename="SbiePlusAPI.cpp" line="655"/>
         <source>No INet (with Exceptions)</source>
@@ -4514,9 +4242,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         <source>About Sandboxie-Plus</source>
         <translation>关于 Sandboxie-Plus</translation>
     </message>
-    <message>
-        <source>Import Box</source>
-    </message>
+    
     <message>
         <location filename="SandMan.cpp" line="849"/>
         <location filename="SandMan.cpp" line="998"/>
@@ -4600,9 +4326,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         <source>Create New Group</source>
         <translation>新建沙盒组</translation>
     </message>
-    <message>
-        <source>Import Sandbox</source>
-    </message>
+    
     <message>
         <location filename="SandMan.cpp" line="1085"/>
         <source>Set Container Folder</source>
@@ -4697,9 +4421,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         <source>Recovery Log</source>
         <translation>恢复日志</translation>
     </message>
-    <message>
-        <source>Resource Monitor</source>
-    </message>
+    
     <message>
         <location filename="SandMan.cpp" line="1425"/>
         <source>Click to download update</source>
@@ -5056,15 +4778,7 @@ Please check if there is an update for sandboxie.</oldsource>
         <source>&lt;h3&gt;About Sandboxie-Plus&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2024 by DavidXanatos&lt;/p&gt;</source>
         <oldsource>&lt;h3&gt;About Sandboxie-Plus&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2023 by DavidXanatos&lt;/p&gt;</oldsource>
     </message>
-    <message>
-        <source>This copy of Sandboxie+ is certified for: %1</source>
-    </message>
-    <message>
-        <source>Sandboxie+ is free for personal and non-commercial use.</source>
-    </message>
-    <message>
-        <source>Sandboxie-Plus is an open source continuation of Sandboxie.&lt;br /&gt;Visit &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; for more information.&lt;br /&gt;&lt;br /&gt;%3&lt;br /&gt;&lt;br /&gt;Driver version: %1&lt;br /&gt;Features: %2&lt;br /&gt;&lt;br /&gt;Icons from &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</source>
-    </message>
+
     <message>
         <location filename="SandMan.cpp" line="2943"/>
         <source>Default sandbox not found; creating: %1</source>
@@ -5093,9 +4807,7 @@ Please check if there is an update for sandboxie.</oldsource>
         <source>&lt;a href=&quot;sbie://update/apply&quot; style=&quot;color: red;&quot;&gt;There is a new Sandboxie-Plus update %1 ready&lt;/a&gt;</source>
         <translation>&lt;a href=&quot;sbie://update/apply&quot; style=&quot;color: red;&quot;&gt;存在一个新的 Sandboxie-Plus 更新 %1 已准备就绪&lt;/a&gt;</translation>
     </message>
-    <message>
-        <source>Some compatibility templates (%1) are missing, probably deleted, do you want to remove them from all boxes?</source>
-    </message>
+    
     <message>
         <location filename="SandMan.cpp" line="2360"/>
         <source>Cleaned up removed templates...</source>
@@ -5133,12 +4845,7 @@ No will choose: %2</source>
         <source>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;</source>
         <translation>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;成为项目赞助者&lt;/a&gt;，以获得&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;赞助者证书&lt;/a&gt;</translation>
     </message>
-    <message>
-        <source>PID %1: </source>
-    </message>
-    <message>
-        <source>%1 (%2): </source>
-    </message>
+
     <message>
         <location filename="SandManRecovery.cpp" line="240"/>
         <source>Recovering file %1 to %2</source>
@@ -5219,27 +4926,18 @@ No will choose: %2</source>
         <source>Login Failed: %1</source>
         <translation>登录失败：%1</translation>
     </message>
-    <message>
-        <source>Select file name</source>
-    </message>
-    <message>
-        <source>7-zip Archive (*.7z)</source>
-    </message>
+
     <message>
         <source>This name is already in use, please select an alternative box name</source>
         <oldsource>This Name is already in use, please select an alternative box name</oldsource>
     </message>
-    <message>
-        <source>Importing: %1</source>
-    </message>
+    
     <message>
         <location filename="SandMan.cpp" line="3972"/>
         <source>Do you want to terminate all processes in all sandboxes?</source>
         <translation>确定要终止所有沙盒中的所有进程吗?</translation>
     </message>
-    <message>
-        <source>Terminate all without asking</source>
-    </message>
+    
     <message>
         <location filename="SandMan.cpp" line="4038"/>
         <source>No Recovery</source>
@@ -5465,12 +5163,7 @@ This file is part of Sandboxie and all changed done to it will be reverted next 
         <source>Sandboxie-Plus Warning</source>
         <translation>Sandboxie-Plus 警告</translation>
     </message>
-    <message>
-        <source>You typed a wrong box name!Nothing was changed.</source>
-    </message>
-    <message>
-        <source>Users canceled this operation.</source>
-    </message>
+
     <message>
         <location filename="SandMan.cpp" line="2026"/>
         <source>The value is not an existing directory or executable.</source>
@@ -5746,9 +5439,7 @@ Error: %1</source>
         <source>Sandboxie-Plus is an open source continuation of Sandboxie.&lt;br /&gt;Visit &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; for more information.&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;Features: %3&lt;br /&gt;&lt;br /&gt;Installation: %1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt; SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;Icons from &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</source>
         <translation>Sandboxie-Plus 是 Sandboxie 的开源延续。&lt;br /&gt;前往 &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; 了解更多信息。&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;特性: %3&lt;br /&gt;&lt;br /&gt;已安装: %1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt; SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;图标来自于 &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</translation>
     </message>
-    <message>
-        <source>Do you want to open %1 in a sandboxed (yes) or unsandboxed (no) Web browser?</source>
-    </message>
+    
     <message>
         <location filename="SandMan.cpp" line="4887"/>
         <source>Remember choice for later.</source>
@@ -6044,9 +5735,7 @@ Error: %1</source>
         <source> in session %1</source>
         <translation> 位于会话 %1</translation>
     </message>
-    <message>
-        <source> (%1)</source>
-    </message>
+    
 </context>
 <context>
     <name>CSbieTemplatesEx</name>
@@ -6316,22 +6005,7 @@ Error: %1</source>
         <source>Set Leader Process</source>
         <translation>设置引导进程</translation>
     </message>
-    <message>
-        <source>    File root: %1
-</source>
-    </message>
-    <message>
-        <source>    Registry root: %1
-</source>
-    </message>
-    <message>
-        <source>    IPC root: %1
-</source>
-    </message>
-    <message>
-        <source>Options:
-    </source>
-    </message>
+
     <message>
         <location filename="Views/SbieView.cpp" line="642"/>
         <source>    CPU: %1  |  Memory: %2  |  Private Bytes: %3
@@ -6433,9 +6107,7 @@ Error: %1</source>
         <source>Refresh Info</source>
         <translation>刷新信息</translation>
     </message>
-    <message>
-        <source>Import Box</source>
-    </message>
+    
     <message>
         <location filename="Views/SbieView.cpp" line="196"/>
         <location filename="Views/SbieView.cpp" line="369"/>
@@ -6452,9 +6124,7 @@ Error: %1</source>
         <source>Disable Force Rules</source>
         <translation>禁用“强制必沙规则”</translation>
     </message>
-    <message>
-        <source>Export Box</source>
-    </message>
+    
     <message>
         <location filename="Views/SbieView.cpp" line="275"/>
         <location filename="Views/SbieView.cpp" line="416"/>
@@ -6467,9 +6137,7 @@ Error: %1</source>
         <source>Move Down</source>
         <translation>下移</translation>
     </message>
-    <message>
-        <source>Run Sandboxed</source>
-    </message>
+    
     <message>
         <location filename="Views/SbieView.cpp" line="363"/>
         <source>Run Web Browser</source>
@@ -6530,10 +6198,7 @@ Error: %1</source>
         <source>Move Group</source>
         <translation>移动组</translation>
     </message>
-    <message>
-        <source>    Disk root: %1
-</source>
-    </message>
+    
     <message>
         <location filename="Views/SbieView.cpp" line="1126"/>
         <source>Please enter a new name for the Group.</source>
@@ -6590,30 +6255,7 @@ Error: %1</source>
         <source>Do you really want to delete the content of the following sandboxes?&lt;br /&gt;&lt;br /&gt;%1</source>
         <translation>您确定真的要删除以下沙盒中的内容吗?&lt;br /&gt;&lt;br /&gt;%1</translation>
     </message>
-    <message>
-        <source>7-zip Archive (*.7z);;Zip Archive (*.zip)</source>
-    </message>
-    <message>
-        <source>Failed to open archive, wrong password?</source>
-    </message>
-    <message>
-        <source>Failed to open archive (%1)!</source>
-    </message>
-    <message>
-        <source>7-Zip Archive (*.7z);;Zip Archive (*.zip)</source>
-    </message>
-    <message>
-        <source>This name is already in use, please select an alternative box name</source>
-    </message>
-    <message>
-        <source>Importing Sandbox</source>
-    </message>
-    <message>
-        <source>Do you want to select custom root folder?</source>
-    </message>
-    <message>
-        <source>Importing: %1</source>
-    </message>
+
     <message>
         <location filename="Views/SbieView.cpp" line="1422"/>
         <source>The Sandbox name and Box Group name cannot use the &apos;,()&apos; symbol or control characters.</source>
@@ -6648,9 +6290,7 @@ Error: %1</source>
         <source>This Sandbox is empty.</source>
         <translation>此沙盒是空的。</translation>
     </message>
-    <message>
-        <source>WARNING: The opened registry editor is not sandboxed, please be careful and only do changes to the pre-selected sandbox locations.</source>
-    </message>
+    
     <message>
         <location filename="Views/SbieView.cpp" line="1596"/>
         <source>Don&apos;t show this warning in future</source>
@@ -6668,9 +6308,7 @@ Error: %1</source>
         <translatorcomment>沙盒名称只能包含字母、数字和下划线，不应对此处的文本进行翻译！</translatorcomment>
         <translation>%1 Copy</translation>
     </message>
-    <message>
-        <source>Select file name</source>
-    </message>
+    
     <message>
         <location filename="Views/SbieView.cpp" line="222"/>
         <location filename="Views/SbieView.cpp" line="389"/>
@@ -6693,41 +6331,20 @@ Error: %1</source>
         <source>Resume</source>
         <translation>恢复</translation>
     </message>
-    <message>
-        <source>7-zip Archive (*.7z)</source>
-    </message>
-    <message>
-        <source>Exporting: %1</source>
-    </message>
-    <message>
-        <source>Please enter a new name for the Sandbox.</source>
-    </message>
-    <message>
-        <source>Please enter a new alias for the Sandbox.</source>
-    </message>
-    <message>
-        <source>The entered name is not valid, do you want to set it as an alias instead?</source>
-    </message>
-    <message>
-        <source>Do you really want to remove the selected sandbox(es)?&lt;br /&gt;&lt;br /&gt;Warning: The box content will also be deleted!</source>
-    </message>
+
     <message>
         <location filename="Views/SbieView.cpp" line="1837"/>
         <source>This Sandbox is already empty.</source>
         <translation>此沙盒已清空。</translation>
     </message>
-    <message>
-        <source>Do you want to delete the content of the selected sandbox?</source>
-    </message>
+    
     <message>
         <location filename="Views/SbieView.cpp" line="1854"/>
         <location filename="Views/SbieView.cpp" line="1877"/>
         <source>Also delete all Snapshots</source>
         <translation>同时删除所有快照</translation>
     </message>
-    <message>
-        <source>Do you really want to delete the content of all selected sandboxes?</source>
-    </message>
+    
     <message>
         <location filename="Views/SbieView.cpp" line="1898"/>
         <source>Do you want to terminate all processes in the selected sandbox(es)?</source>
@@ -6823,9 +6440,7 @@ Error: %1</source>
         <source>Auto Detection</source>
         <translation>自动检测</translation>
     </message>
-    <message>
-        <source>No Translation</source>
-    </message>
+    
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="328"/>
         <location filename="Windows/SettingsWindow.cpp" line="332"/>
@@ -6932,9 +6547,7 @@ Error: %1</source>
         <oldsource>%1 %</oldsource>
         <translation>%1</translation>
     </message>
-    <message>
-        <source>HwId: %1</source>
-    </message>
+    
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="939"/>
         <source>Search for settings</source>
@@ -7000,18 +6613,14 @@ This is a temporary Patreon certificate, valid for 3 months. Once it nears expir
         <source>Auto update in future</source>
         <translation>自动更新</translation>
     </message>
-    <message>
-        <source>You can request a free %1-day evaluation certificate up to %2 times for any one Hardware ID</source>
-    </message>
+    
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3286"/>
         <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please &lt;a href=&quot;%2&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
         <oldsource>This supporter certificate has expired, please &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;get an updated certificate&lt;/a&gt;.</oldsource>
         <translation>此支持者证书将在 %1 天后&lt;font color=&apos;red&apos;&gt;过期&lt;/font&gt;，请&lt;a href=&quot;%2&quot;&gt;获取更新的证书&lt;/a&gt;。</translation>
     </message>
-    <message>
-        <source>Expires in: %1 Days</source>
-    </message>
+    
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3186"/>
         <location filename="Windows/SettingsWindow.cpp" line="3195"/>
@@ -7268,33 +6877,13 @@ Choose autocomplete mode:
         <source>Keeps autocomplete suggestions disabled.</source>
         <translation>保持自动补全建议处于禁用状态。</translation>
     </message>
-    <message>
-        <source>If you are unsure about the settings displayed in the autocomplete popup, we strongly recommend consulting the software&apos;s documentation or source code before proceeding. Enabling this feature without proper understanding may lead to unintended consequences, for which you will be solely responsible.
 
-Choose autocomplete mode:
-• Basic: Manual completion (Ctrl+Space) with case correction
-• Full: Automatic completion while typing with case correction</source>
-    </message>
-    <message>
-        <source>Basic</source>
-    </message>
-    <message>
-        <source>Enable manual completion only (Ctrl+Space) with case correction</source>
-    </message>
-    <message>
-        <source>Full</source>
-    </message>
-    <message>
-        <source>Enable automatic completion while typing with case correction</source>
-    </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3729"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
-    <message>
-        <source>Keep autocomplete disabled</source>
-    </message>
+    
     <message>
         <location filename="Engine/BoxObject.cpp" line="91"/>
         <location filename="Windows/SettingsWindow.cpp" line="1366"/>
@@ -7366,12 +6955,7 @@ Choose autocomplete mode:
 Right-click to copy</oldsource>
         <translation>单击隐藏</translation>
     </message>
-    <message>
-        <source>HwId: &lt;a href=&quot;%1&quot;&gt;[%2]&lt;/a&gt;</source>
-    </message>
-    <message>
-        <source>HwId: &lt;a href=&quot;%1&quot; style=&quot;text-decoration:none; color:inherit;&quot;&gt;%1&lt;/a&gt;</source>
-    </message>
+
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="629"/>
         <location filename="Windows/SettingsWindow.cpp" line="811"/>
@@ -7415,23 +6999,13 @@ Right-click to copy</oldsource>
         <source>Please enter a command</source>
         <translation>请输入一则命令</translation>
     </message>
-    <message>
-        <source>This supporter certificate has expired, please &lt;a href=&quot;sbie://update/cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-    </message>
+    
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3276"/>
         <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Plus features will be disabled in %1 days.&lt;/font&gt;</source>
         <translation>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Plus 附加的高级功能将在 %1 天后禁用&lt;/font&gt;</translation>
     </message>
-    <message>
-        <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to Sandboxie-Live services, including compatibility updates and the troubleshooting database.</source>
-    </message>
-    <message>
-        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-    </message>
-    <message>
-        <source>Retreiving certificate...</source>
-    </message>
+
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3504"/>
         <source>Contributor</source>
@@ -7467,9 +7041,7 @@ Right-click to copy</oldsource>
         <source>Family</source>
         <translation>家庭</translation>
     </message>
-    <message>
-        <source>Subscription</source>
-    </message>
+    
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3522"/>
         <source>Evaluation</source>
@@ -7480,9 +7052,7 @@ Right-click to copy</oldsource>
         <source>Type %1</source>
         <translation>类型 %1</translation>
     </message>
-    <message>
-        <source>Standard</source>
-    </message>
+    
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3554"/>
         <source>Advanced</source>
@@ -7528,17 +7098,13 @@ Right-click to copy</oldsource>
         <source>This certificate has unfortunately expired, you need to get a new certificate.</source>
         <translation>很遗憾，此许可证已过期，请获取新许可证。</translation>
     </message>
-    <message>
-        <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For this build Plus features remain enabled.&lt;/font&gt;</source>
-    </message>
+    
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3280"/>
         <source>&lt;br /&gt;Plus features are no longer enabled.</source>
         <translation>&lt;br /&gt;Plus 附加的高级功能已不再可用。</translation>
     </message>
-    <message>
-        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please &lt;a href=&quot;sbie://update/cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-    </message>
+    
     <message>
         <source>Supporter certificate required</source>
         <oldsource>Supproter certificate required</oldsource>
@@ -7563,20 +7129,13 @@ Right-click to copy</oldsource>
         <source>This does not look like a certificate. Please enter the entire certificate, not just a portion of it.</source>
         <translation>这看起来不像是一份许可证。请输入完整的许可证，而不仅仅是其中的一部分。</translation>
     </message>
-    <message>
-        <source>This certificate is unfortunately expired.</source>
-    </message>
-    <message>
-        <source>This certificate is unfortunately outdated.</source>
-    </message>
+
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3610"/>
         <source>Thank you for supporting the development of Sandboxie-Plus.</source>
         <translation>感谢您对 Sandboxie-Plus 开发工作的支持。</translation>
     </message>
-    <message>
-        <source>This support certificate is not valid.</source>
-    </message>
+    
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="2445"/>
         <source>Update Available</source>
@@ -7608,9 +7167,7 @@ Right-click to copy</oldsource>
         <source>Select Directory</source>
         <translation>选择目录</translation>
     </message>
-    <message>
-        <source>A mandatory security update for your Sandboxie-Plus Supporter Certificate is required. Would you like to download the updated certificate now (Yes), or exit Sandboxie-Plus (No)?</source>
-    </message>
+    
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="2529"/>
         <source>&lt;a href=&quot;check&quot;&gt;Check Now&lt;/a&gt;</source>
@@ -7697,11 +7254,7 @@ Right-click to copy</oldsource>
         <source>Autocomplete Consent Required</source>
         <translation>需要同意启用自动完成</translation>
     </message>
-    <message>
-        <source>If you are unsure about the settings displayed in the autocomplete popup, we strongly recommend consulting the software&apos;s documentation or source code before proceeding. Enabling this feature without proper understanding may lead to unintended consequences, for which you will be solely responsible.
-
-Do you wish to enable autocomplete?</source>
-    </message>
+    
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3110"/>
         <source>%1 (Current)</source>
@@ -7779,9 +7332,7 @@ Do you wish to enable autocomplete?</source>
         <source>Enabling this option prevents changes to the Sandboxie.ini configuration from the user interface without admin rights. Be careful, as using Sandboxie Manager with normal user rights may result in a lockout. To make changes to the configuration, you must restart Sandboxie Manager as an admin by clicking &apos;Restart as Admin&apos; in the &apos;Sandbox&apos; menu in the main window.</source>
         <translation>启用这个选项会阻止无管理员权限的用户通过 Sandboxie 管理器界面对 Sandboxie.ini 进行修改的操作。请小心，因为若以普通用户权限使用 Sandboxie 管理器，可能导致其无法再次被打开。如需修改配置，你必须通过点击主窗口中 &apos; 沙盒 &apos; 菜单下的 &apos; 以管理员特权重启 &apos; 菜单项来以管理员身份重启 Sandboxie 管理器。</translation>
     </message>
-    <message>
-        <source>When this option is set, Sandbox Manager with normal user permissions will not be able to modify the configuration, which may result in a lock. You need to open the Sandbox Manager main window, click &quot;Sandbox (s)&quot; in the system menu, and then click &quot;Restart as Admin&quot; in the pop - up context menu to gain control of the configuration.</source>
-    </message>
+    
 </context>
 <context>
     <name>CSnapshotsWindow</name>
@@ -8620,9 +8171,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
         <source>Saving TraceLog...</source>
         <translation>保存跟踪日志……</translation>
     </message>
-    <message>
-        <source>Unknown</source>
-    </message>
+    
     <message>
         <location filename="Views/TraceView.cpp" line="738"/>
         <source>%1 (%2)</source>
@@ -8702,18 +8251,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
 </context>
 <context>
     <name>CWFPPage</name>
-    <message>
-        <source>Configure &lt;b&gt;Sandboxie-Plus&lt;/b&gt; network filtering</source>
-    </message>
-    <message>
-        <source>Sandboxie can use the Windows Filtering Platform (WFP) to restrict network access.</source>
-    </message>
-    <message>
-        <source>Using WFP allows Sandboxie to reliably enforce IP/Port based rules for network access. Unlike system level application firewalls, Sandboxie can use different rules in each box for the same application. If you already have a good and reliable application firewall and do not need per box rules, you can leave this option unchecked. Without WFP enabled, Sandboxie will still be able to reliably and entirely block processes from accessing the network. However, this can cause the process to crash, as the driver blocks the required network device endpoints. Even with WFP disabled, Sandboxie offers to set IP/Port based rules, however these will be applied in user mode only and not be enforced by the driver. Hence, without WFP enabled, an intentionally malicious process could bypass those rules, but not the entire network block.</source>
-    </message>
-    <message>
-        <source>Enable Windows Filtering Platform (WFP) support</source>
-    </message>
+
 </context>
 <context>
     <name>CompressDialog</name>
@@ -8752,9 +8290,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
         <source>Export Sandbox to an archive, choose your compression rate and customize additional compression settings.</source>
         <translation>将沙盒导出到压缩包，选择压缩率并自定义其他压缩设置。</translation>
     </message>
-    <message>
-        <source>Export Sandbox to a 7z or Zip archive, Choose Your Compression Rate and Customize Additional Compression Settings.</source>
-    </message>
+    
 </context>
 <context>
     <name>EditorSettingsWindow</name>
@@ -8768,30 +8304,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Configure Editor Settings&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Use the checkboxes in the table to configure each setting. The table shows what each state means.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;配置编辑器设置&lt;/span&gt;&lt;/p&gt;&lt;p&gt;使用表格中的复选框来配置每个设置。表格显示了每种状态的含义。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-    <message>
-        <source>Setting</source>
-    </message>
-    <message>
-        <source>State</source>
-    </message>
-    <message>
-        <source>Unchecked/Disabled</source>
-    </message>
-    <message>
-        <source>Partial/Basic</source>
-    </message>
-    <message>
-        <source>Checked/Full</source>
-    </message>
-    <message>
-        <source>Reset</source>
-    </message>
-    <message>
-        <source>Reset All to Defaults</source>
-    </message>
-    <message>
-        <source>Reset all settings to their default values and remove custom config entries</source>
-    </message>
+
 </context>
 <context>
     <name>ExtractDialog</name>
@@ -8828,21 +8341,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
 </context>
 <context>
     <name>NewBoxWindow</name>
-    <message>
-        <source>SandboxiePlus new box</source>
-    </message>
-    <message>
-        <source>Box Type Preset:</source>
-    </message>
-    <message>
-        <source>A sandbox isolates your host system from processes running within the box, it prevents them from making permanent changes to other programs and data in your computer. The level of isolation impacts your security as well as the compatibility with applications, hence there will be a different level of isolation depending on the selected Box Type. Sandboxie can also protect your personal data from being accessed by processes running under its supervision.</source>
-    </message>
-    <message>
-        <source>Box info</source>
-    </message>
-    <message>
-        <source>Sandbox Name:</source>
-    </message>
+
 </context>
 <context>
     <name>OptionsWindow</name>
@@ -9218,9 +8717,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
         <source>Force protection on mount</source>
         <translation>强制挂载保护</translation>
     </message>
-    <message>
-        <source>Prevent interference with user control operations (move mouse, bring in front, etc...)</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2246"/>
         <source>You can group programs together and give them a group name.  Program groups can be used with some of the settings instead of program names. Groups defined for the box overwrite groups defined in templates.</source>
@@ -9236,9 +8733,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
         <source>Force Children</source>
         <translation>强制子进程</translation>
     </message>
-    <message>
-        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;BreakoutFolder&lt;/a&gt; and/or &lt;a href=&quot;sbie://docs/breakoutprocess&quot;&gt;BreakoutProcess&lt;/a&gt; in combination with Open[File/Pipe]Path directives can compromise security. Please review the security section for each option in the documentation before use.</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2592"/>
         <location filename="Forms/OptionsWindow.ui" line="2774"/>
@@ -9463,9 +8958,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
         <oldsource>Open access to windows Security Account Manager</oldsource>
         <translation>开放 Windows 安全帐户管理器 (SAM) 的访问权限</translation>
     </message>
-    <message>
-        <source>Hide Processes</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="5231"/>
         <source>Add Process</source>
@@ -9526,9 +9019,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
         <source>Limit restrictions</source>
         <translation>限制</translation>
     </message>
-    <message>
-        <source>Leave it blank to disable the setting(Unit:KB)</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1844"/>
         <location filename="Forms/OptionsWindow.ui" line="1889"/>
@@ -9556,9 +9047,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
         <source>Single Process Memory Limit:</source>
         <translation>单个进程内存占用限制:</translation>
     </message>
-    <message>
-        <source>Create a new sandboxed token instead of setting down default token</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4564"/>
         <source>Restart force process before they begin to execute</source>
@@ -9671,9 +9160,7 @@ Note:  Forced Programs and Force Folders settings for a sandbox do not apply to 
         <source>Box Structure</source>
         <translation>沙盒结构</translation>
     </message>
-    <message>
-        <source>Icon</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1209"/>
         <location filename="Forms/OptionsWindow.ui" line="4025"/>
@@ -9758,9 +9245,7 @@ This is done to prevent rogue processes inside the sandbox from creating a renam
         <oldsource>Adcanced Security</oldsource>
         <translation>高级安全</translation>
     </message>
-    <message>
-        <source>Use a Sandboxie login instead of an anonymous token (experimental)</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1955"/>
         <source>Other isolation</source>
@@ -9869,9 +9354,7 @@ Partially checked: No groups will be added to the newly created sandboxed token.
         <source>Breakout Folder</source>
         <translation>分离目录</translation>
     </message>
-    <message>
-        <source>Block obtain an image of an un-sandboxied window through Windows public method</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2498"/>
         <source>Programs entered here will be allowed to break out of this sandbox when they start. It is also possible to capture them into another sandbox, for example to have your web browser always open in a dedicated box.</source>
@@ -10117,9 +9600,7 @@ The process match level has a higher priority than the specificity and describes
         <source>(Security Critical)</source>
         <translation>(安全关键)</translation>
     </message>
-    <message>
-        <source>Protect sandboxed SYSTEM processes from unprivileged processes</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1525"/>
         <source>Security Isolation through the usage of a heavily restricted process token is Sandboxie&apos;s primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it&apos;s no longer providing reliable security, just simple application compartmentalization.</source>
@@ -10151,9 +9632,7 @@ The process match level has a higher priority than the specificity and describes
         <source>Disable the use of RpcMgmtSetComTimeout by default (this may resolve compatibility issues)</source>
         <translation>默认禁用 RpcMgmtSetComTimeout (或许可以解决兼容性问题)</translation>
     </message>
-    <message>
-        <source>Disable Security Isolation (experimental)</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1518"/>
         <source>Security Isolation &amp; Filtering</source>
@@ -10276,9 +9755,7 @@ instead of &quot;*&quot;.</source>
 “I” - 忽略访问请求
 来代替 “*”。</translation>
     </message>
-    <message>
-        <source>Ntdll syscall Trace (creates a lot of output)</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="5447"/>
         <source>Disable Resource Access Monitor</source>
@@ -10703,9 +10180,7 @@ SBIE2115：文件没有被迁移，文件将以只读方式打开</translation>
         <source>Exclude this sandbox from being terminated when &quot;Terminate All Processes&quot; is invoked.</source>
         <translation>调用“终止所有进程”时，不终止此沙盒内的进程。</translation>
     </message>
-    <message>
-        <source>This command runs after all processes in the sandbox have finished.</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4986"/>
         <source>On Box Terminate</source>
@@ -10748,9 +10223,7 @@ SBIE2115：文件没有被迁移，文件将以只读方式打开</translation>
         <source>Process</source>
         <translation>进程</translation>
     </message>
-    <message>
-        <source>Block also read access to processes in this sandbox</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4787"/>
         <source>Add Option</source>
@@ -10846,9 +10319,7 @@ SBIE2115：文件没有被迁移，文件将以只读方式打开</translation>
         <source>Alpha</source>
         <translation>内部测试</translation>
     </message>
-    <message>
-        <source>and/or on border</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="366"/>
         <source>When checked, hides the colored border frame and shows only the sandbox name or alias as a label. Requires the label option to be enabled.</source>
@@ -11213,50 +10684,19 @@ Enabling this option uses a LOW integrity token instead, which may improve compa
         <source>Complete</source>
         <translation>完成</translation>
     </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;
-&lt;p&gt;When checked, INI keys are validated and highlighted according to the SbieSettings file. Uncheck to disable validation and highlighting.&lt;/p&gt;
-&lt;br/&gt;
-&lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;font-style: italic; color:#000000; background-color:#ffff00;&quot;&gt;Black Text, Yellow BG, Italic&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Renamed key (old name - invalid)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: line-through; color:#ffffff; background-color:#000000;&quot;&gt;White Text, Black BG, Strikeout&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Removed key (no longer available)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#008b8b; background-color:#ffffff;&quot;&gt;Dark Cyan Text, White BG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Future key (unavailable)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: underline; color: #ff0000;&quot;&gt;Red Spell Check Underline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Invalid/unknown key&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#c03224;&quot;&gt;Dark/Light Red Text&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Valid/known key&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Note&lt;/span&gt;: Only valid/known keys are functional in this version. However, no global or per-box validation is performed. Some settings may appear valid but might not work in all contexts.&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="6230"/>
         <source>Edit ini</source>
         <translation>编辑配置</translation>
     </message>
-    <message>
-        <source>Show detailed information tooltips when hovering over configuration settings.
-Tooltips include version details, syntax requirements, and descriptions to help you understand and correctly configure each setting.</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="6220"/>
         <source>Tooltips</source>
         <translation>提供信息</translation>
     </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;
-&lt;p&gt;When checked, INI keys will be validated and highlighted according to the CSV. Uncheck to disable validation/highlighting.&lt;/p&gt;
-&lt;br/&gt;
-&lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;font-style: italic; color:#000000; background-color:#ffff00;&quot;&gt;Black Text, Yellow BG, Italic&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Renamed key (old name - invalid)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: line-through; color:#ffffff; background-color:#000000;&quot;&gt;White Text, Black BG, Strikeout&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Removed key (no longer available)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#008b8b; background-color:#ffffff;&quot;&gt;Dark Cyan Text, White BG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Future key (unavailable)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: underline; color: #ff0000;&quot;&gt;Red Spell Check Underline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Invalid/unknown key&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#c03224;&quot;&gt;Dark/Light Red Text&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Valid/known key&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Note&lt;/span&gt;: Only valid/known keys are functional in this version. However, no global or per-box validation is performed. Some settings may appear valid but might not work in all contexts.&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;</source>
-    </message>
+    
     <message>
         <location filename="Forms/OptionsWindow.ui" line="6320"/>
         <source>Validate</source>
@@ -11454,9 +10894,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
         <source>Run in a new Sandbox</source>
         <translation>在新沙盒中运行</translation>
     </message>
-    <message>
-        <source>Force child processes to be sandboxed</source>
-    </message>
+    
     <message>
         <location filename="Forms/SelectBoxWindow.ui" line="48"/>
         <source>Force Children</source>
@@ -11582,9 +11020,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
         <source>Delete Entry</source>
         <translation>删除条目</translation>
     </message>
-    <message>
-        <source>Don&apos;t show the popup message log for all SBIE messages</source>
-    </message>
+    
     <message>
         <location filename="Forms/SettingsWindow.ui" line="380"/>
         <source>Notification Options</source>
@@ -11620,9 +11056,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
         <source>Integrate with Host Start Menu</source>
         <translation>与主机开始菜单整合</translation>
     </message>
-    <message>
-        <source>Icon</source>
-    </message>
+    
     <message>
         <location filename="Forms/SettingsWindow.ui" line="993"/>
         <source>Move Up</source>
@@ -11928,9 +11362,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
         <source>Create Portable Box</source>
         <translation>创建便携沙盒</translation>
     </message>
-    <message>
-        <source>Import Portable Box</source>
-    </message>
+    
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2729"/>
         <source>&lt;b&gt;Config protection applyess only to Sandboxie.ini portable box configuration is not protected by the below mechanisms&lt;/b&gt;</source>
@@ -12131,10 +11563,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
         <source>Complete</source>
         <translation>完成</translation>
     </message>
-    <message>
-        <source>Show detailed information tooltips when hovering over configuration settings.
-Tooltips include version details, syntax requirements, and descriptions to help you understand and correctly configure each setting.</source>
-    </message>
+    
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3400"/>
         <source>Tooltips</source>
@@ -12145,21 +11574,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
         <source>Edit ini</source>
         <translation>编辑配置</translation>
     </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;
-&lt;p&gt;When checked, INI keys will be validated and highlighted according to the CSV. Uncheck to disable validation/highlighting.&lt;/p&gt;
-&lt;br/&gt;
-&lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;font-style: italic; color:#000000; background-color:#ffff00;&quot;&gt;Black Text, Yellow BG, Italic&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Renamed key (old name - invalid)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: line-through; color:#ffffff; background-color:#000000;&quot;&gt;White Text, Black BG, Strikeout&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Removed key (no longer available)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#008b8b; background-color:#ffffff;&quot;&gt;Dark Cyan Text, White BG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Future key (unavailable)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: underline; color: #ff0000;&quot;&gt;Red Spell Check Underline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Invalid/unknown key&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#c03224;&quot;&gt;Dark/Light Red Text&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Valid/known key&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Note&lt;/span&gt;: Only valid/known keys are functional in this version. However, no global or per-box validation is performed. Some settings may appear valid but might not work in all contexts.&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;</source>
-    </message>
+    
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3503"/>
         <source>Validate</source>
@@ -12176,9 +11591,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
         <oldsource>Version Updates</oldsource>
         <translation>增量更新</translation>
     </message>
-    <message>
-        <source>New full versions from the selected release channel.</source>
-    </message>
+    
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2246"/>
         <source>Hotpatches for the installed version, updates to the Templates.ini and translations.</source>
@@ -12201,9 +11614,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
         <source>The preview channel contains the latest GitHub pre-releases.</source>
         <translation>预览版通道包含最新的 GitHub 预发布版本。</translation>
     </message>
-    <message>
-        <source>New Versions</source>
-    </message>
+    
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2353"/>
         <source>The stable channel contains the latest stable GitHub releases.</source>
@@ -12223,15 +11634,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
         <source>Search in the Preview channel</source>
         <translation>预览版通道</translation>
     </message>
-    <message>
-        <source>Supporters of the Sandboxie-Plus project can receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporter certificate&lt;/a&gt;. It&apos;s like a license key but for awesome people using open source software. :-)</source>
-    </message>
-    <message>
-        <source>This supporter certificate has expired, please &lt;a href=&quot;sbie://update/cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-    </message>
-    <message>
-        <source>Check periodically for updates of Sandboxie-Plus</source>
-    </message>
+
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1970"/>
         <source>In the future, don&apos;t notify about certificate expiration</source>
@@ -12375,9 +11778,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
         <source>Enter the support certificate here</source>
         <translation>在此输入赞助者证书</translation>
     </message>
-    <message>
-        <source>Support Settings</source>
-    </message>
+    
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2569"/>
         <source>Portable root folder</source>
@@ -12485,9 +11886,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
         <source>Use Fusion Theme</source>
         <translation>使用 Fusion 风格主题</translation>
     </message>
-    <message>
-        <source>Use a Sandboxie login instead of an anonymous token (experimental)</source>
-    </message>
+    
     <message>
         <location filename="Forms/SettingsWindow.ui" line="936"/>
         <location filename="Forms/SettingsWindow.ui" line="1759"/>
@@ -12543,9 +11942,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
         <oldsource>Hide sandboxie&apos;s own processes from the task list</oldsource>
         <translation>从任务列表中隐藏 Sandboxie 自身进程</translation>
     </message>
-    <message>
-        <source>Ini Options</source>
-    </message>
+    
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1292"/>
         <source>External Ini Editor</source>
@@ -12763,9 +12160,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
         <source>Cert Info</source>
         <translation>许可证信息</translation>
     </message>
-    <message>
-        <source>Enter/view Supporter Certificate</source>
-    </message>
+    
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2181"/>
         <source>Sandboxie Updater</source>
@@ -12846,9 +12241,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         <source>Restrict box root folder access to the the user whom created that sandbox</source>
         <translation>仅允许创建该沙盒的用户访问沙盒根文件夹</translation>
     </message>
-    <message>
-        <source>Sandboxie.ini Presets</source>
-    </message>
+    
     <message>
         <location filename="Forms/SettingsWindow.ui" line="274"/>
         <source>Always run SandMan UI as Admin</source>
