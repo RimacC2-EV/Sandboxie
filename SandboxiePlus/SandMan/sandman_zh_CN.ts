@@ -65,33 +65,33 @@
     <message>
         <location filename="AddonManager.cpp" line="155"/>
         <source>Do you want to download and install %1?</source>
-        <translation>要下载并安装 %1 吗？</translation>
+        <translation>是否下载并安装 %1？</translation>
     </message>
     <message>
         <location filename="AddonManager.cpp" line="161"/>
         <source>Installing: %1</source>
-        <translation>正在安装：%1</translation>
+        <translation>安装中：%1</translation>
     </message>
     <message>
         <location filename="AddonManager.cpp" line="185"/>
         <source>Add-on not found, please try updating the add-on list in the global settings!</source>
-        <translation>未找到插件，请尝试在全局设置中更新插件列表！</translation>
+        <translation>未找到扩展，请尝试在全局设置中更新扩展列表！</translation>
     </message>
     <message>
         <location filename="AddonManager.cpp" line="213"/>
         <source>Add-on not found!</source>
-        <translation>未找到插件！</translation>
+        <translation>未找到扩展！</translation>
     </message>
     <message>
         <location filename="AddonManager.cpp" line="233"/>
         <source>Add-on Not Found</source>
-        <translation>未找到插件</translation>
+        <translation>未找到扩展</translation>
     </message>
     <message>
         <location filename="AddonManager.cpp" line="234"/>
         <source>Add-on is not available for this platform</source>
         <oldsource>Addon is not available for this paltform</oldsource>
-        <translation>加载项在当前平台不适用</translation>
+        <translation>扩展在当前平台不适用</translation>
     </message>
     <message>
         <location filename="AddonManager.cpp" line="235"/>
@@ -102,34 +102,34 @@
     <message>
         <location filename="AddonManager.cpp" line="236"/>
         <source>Executing add-on setup failed</source>
-        <translation>插件安装失败</translation>
+        <translation>扩展安装失败</translation>
     </message>
     <message>
         <location filename="AddonManager.cpp" line="237"/>
         <source>Failed to delete a file during add-on removal</source>
-        <translation>卸载插件时删除文件失败</translation>
+        <translation>卸载扩展时删除文件失败</translation>
     </message>
     <message>
         <location filename="AddonManager.cpp" line="251"/>
         <source>Updater failed to perform add-on operation</source>
         <oldsource>Updater failed to perform plugin operation</oldsource>
-        <translation>加载项更新失败</translation>
+        <translation>扩展更新失败</translation>
     </message>
     <message>
         <location filename="AddonManager.cpp" line="253"/>
         <source>Updater failed to perform add-on operation, error: %1</source>
         <oldsource>Updater failed to perform plugin operation, error: %1</oldsource>
-        <translation>加载项更新失败，错误： %1</translation>
+        <translation>扩展更新失败，错误： %1</translation>
     </message>
     <message>
         <location filename="AddonManager.cpp" line="169"/>
         <source>Do you want to remove %1?</source>
-        <translation>要删除 %1 吗？</translation>
+        <translation>是否删除 %1？</translation>
     </message>
     <message>
         <location filename="AddonManager.cpp" line="175"/>
         <source>Removing: %1</source>
-        <translation>正在删除：%1</translation>
+        <translation>删除中：%1</translation>
     </message>
 </context>
 <context>
@@ -142,7 +142,7 @@
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="922"/>
         <source>On this page advanced sandbox options can be configured.</source>
-        <translation>在此页面可配置沙盒的高级选项。</translation>
+        <translation>在此页面可以配置沙盒高级选项。</translation>
     </message>
     <message>
         <source>Network Access</source>
@@ -188,7 +188,7 @@
         <location filename="Wizards/NewBoxWizard.cpp" line="934"/>
         <source>Prevent sandboxed programs on the host from loading sandboxed DLLs</source>
         <oldsource>Prevent sandboxed programs installed on the host from loading DLLs from the sandbox</oldsource>
-        <translation>阻止宿主上的沙盒化程序加载沙盒化动态链接库(.dll)文件</translation>
+        <translation>阻止宿主上的沙盒化程序加载沙盒化DLL 文件</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="935"/>
@@ -336,7 +336,7 @@ To disable this template for a sandbox, simply uncheck it in the template list.<
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="102"/>
         <source>To debug troubleshooting scripts you need the V4 Script Debugger add-on, do you want to download and install it?</source>
-        <translation>若要调试疑难解答脚本，需要 V4 Script Debugger 加载项，是否下载并安装？</translation>
+        <translation>若要调试疑难解答脚本，需要 V4 Script Debugger 扩展，是否下载并安装？</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="106"/>
@@ -578,7 +578,7 @@ increases to 512 bits with the application of Leet (L337) speak modifications, a
     <message>
         <location filename="BoxTransfer.cpp" line="512"/>
         <source>Cannot export: Sandbox has running processes.</source>
-        <translation>无法导出：沙盒中有进程正在运行</translation>
+        <translation>无法导出：沙盒中有进程运行中</translation>
     </message>
     <message>
         <source>Cannot export: Sandbox is empty.</source>
@@ -596,7 +596,7 @@ increases to 512 bits with the application of Leet (L337) speak modifications, a
     <message>
         <location filename="BoxTransfer.cpp" line="583"/>
         <source>Sandbox &apos;%1&apos; has running processes. Skip it?</source>
-        <translation>沙盒“%1”有正在运行的进程。 跳过它?</translation>
+        <translation>沙盒“%1”有运行中的进程。 跳过它?</translation>
     </message>
     <message>
         <location filename="BoxTransfer.cpp" line="601"/>
@@ -2106,7 +2106,7 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         <location filename="Wizards/NewBoxWizard.cpp" line="298"/>
         <source>The new sandbox has been created using the new &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-delete-v2&quot;&gt;Virtualization Scheme Version 2&lt;/a&gt;, if you experience any unexpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure group.</source>
         <oldsource>The new sandbox has been created using the new &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-delete-v2&quot;&gt;Virtualization Scheme Version 2&lt;/a&gt;, if you expirience any unecpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure groupe.</oldsource>
-        <translation>新沙盒将按照新的 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-delete-v2&quot;&gt;虚拟化方案 2&lt;/a&gt;创建，如果您在使用该沙盒的时候遇到任何问题，请尝试切换至旧版本的虚拟化方案并反馈相应的问题，该选项可以在沙盒结构菜单中找到。</translation>
+        <translation>新沙盒将按照新的 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-delete-v2&quot;&gt;虚拟化方案 2&lt;/a&gt;创建，如果您在使用该沙盒时遇到任何问题，请尝试切换至旧版本的虚拟化方案并反馈相应的问题，该选项可以在沙盒结构菜单中找到。</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="85"/>
@@ -2174,7 +2174,7 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
     <message>
         <location filename="OnlineUpdater.cpp" line="591"/>
         <source>Checking for updates...</source>
-        <translation>正在检查更新……</translation>
+        <translation>检查中更新……</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="598"/>
@@ -2218,7 +2218,7 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
     <message>
         <location filename="OnlineUpdater.cpp" line="916"/>
         <source>Downloading updates...</source>
-        <translation>正在下载更新……</translation>
+        <translation>下载中更新……</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="942"/>
@@ -2284,7 +2284,7 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
     <message>
         <location filename="OnlineUpdater.cpp" line="1112"/>
         <source>Downloading installer...</source>
-        <translation>正在下载安装程序……</translation>
+        <translation>下载中安装程序……</translation>
     </message>
     <message>
         <source>Failed to download installer from: %1</source>
@@ -2836,7 +2836,7 @@ Note: The update check is often behind the latest GitHub release to ensure that 
     <message>
         <location filename="Windows/OptionsWindow.cpp" line="1302"/>
         <source>This sandbox has been deleted hence configuration can not be saved.</source>
-        <translation>该沙盒已被删除，因此无法保存配置。</translation>
+        <translation>该沙盒已删除，因此无法保存配置。</translation>
     </message>
     <message>
         <location filename="Windows/OptionsWindow.cpp" line="1367"/>
@@ -4045,13 +4045,13 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="693"/>
         <source>Keep the list of optional Add-on components up to date</source>
-        <translation>使可选加载项组件的列表保持最新</translation>
+        <translation>使可选扩展组件的列表保持最新</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="694"/>
         <source>Check for latest available add-ons.</source>
         <oldsource>Check for latest avaialble addons.</oldsource>
-        <translation>查看最新可用的插件。</translation>
+        <translation>查看最新可用的扩展。</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="703"/>
@@ -4931,7 +4931,7 @@ This box &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;prevents access to a
     <message>
         <location filename="SandMan.cpp" line="3736"/>
         <source>The selected feature set is only available to project supporters. Processes started in a box with this feature set enabled without a supporter certificate will be terminated after 5 minutes.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;</source>
-        <translation>选定的特性只对项目赞助者可用。如果没有赞助者证书，在启用该特性的沙盒里启动的进程，将在 5 分钟后终止。&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;成为项目赞助者&lt;/a&gt;，以获得&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;赞助者证书&lt;/a&gt;</translation>
+        <translation>选定的特性只对项目赞助者可用。若无赞助者证书，在启用该特性的沙盒里启动的进程，将在 5 分钟后终止。&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;成为项目赞助者&lt;/a&gt;，以获得&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;赞助者证书&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="521"/>
@@ -5159,7 +5159,7 @@ No will choose: %2</source>
         <location filename="SandManRecovery.cpp" line="143"/>
         <location filename="SandManRecovery.cpp" line="197"/>
         <source>Checking file %1</source>
-        <translation>正在检查文件 %1</translation>
+        <translation>检查中文件 %1</translation>
     </message>
     <message>
         <location filename="SandManRecovery.cpp" line="151"/>
@@ -5491,7 +5491,7 @@ This file is part of Sandboxie and all changed done to it will be reverted next 
     <message>
         <location filename="SandMan.cpp" line="2330"/>
         <source>Some compatibility templates are missing:&lt;br /&gt;&lt;br /&gt;%1&lt;br /&gt;Probably deleted, do you want to remove them from all boxes?</source>
-        <translation>某些兼容性模板缺失：&lt;br /&gt;&lt;br /&gt;%1&lt;br /&gt;这些模板可能已被删除，您是否希望将它们从所有沙盒中移除？</translation>
+        <translation>某些兼容性模板缺失：&lt;br /&gt;&lt;br /&gt;%1&lt;br /&gt;这些模板可能已删除，您是否希望将它们从所有沙盒中移除？</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2417"/>
@@ -5987,7 +5987,7 @@ Error: %1</source>
         <location filename="SbieProcess.cpp" line="85"/>
         <source>Firefox Plugin Container</source>
         <oldsource>FireFox Plugin Container</oldsource>
-        <translation>Firefox 插件容器</translation>
+        <translation>Firefox 扩展容器</translation>
     </message>
     <message>
         <location filename="SbieProcess.cpp" line="86"/>
@@ -7600,7 +7600,7 @@ Right-click to copy</oldsource>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="2488"/>
         <source>This Add-on is mandatory and can not be removed.</source>
-        <translation>此加载项是必需的，无法删除。</translation>
+        <translation>此扩展是必需的，无法删除。</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="2497"/>
@@ -9719,13 +9719,13 @@ Note:  Forced Programs and Force Folders settings for a sandbox do not apply to 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4683"/>
         <source>Issue message 1305 when a program tries to load a sandboxed dll</source>
-        <translation>当一个程序试图加载一个沙盒内部的动态链接库(.dll)文件时，提示问题代码 SBIE1305</translation>
+        <translation>当一个程序试图加载一个沙盒内部的DLL 文件时，提示问题代码 SBIE1305</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4676"/>
         <source>Prevent sandboxed programs installed on the host from loading DLLs from the sandbox</source>
         <oldsource>Prevent sandboxes programs installed on host from loading dll&apos;s from the sandbox</oldsource>
-        <translation>阻止安装在宿主上的沙盒程序从沙盒内部加载DLL(动态链接库)文件</translation>
+        <translation>阻止安装在宿主上的沙盒程序从沙盒内部加载DLL(DLL)文件</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4615"/>
@@ -9750,7 +9750,7 @@ This is done to prevent rogue processes inside the sandbox from creating a renam
         <location filename="Forms/OptionsWindow.ui" line="4696"/>
         <source>Sandboxie&apos;s functionality can be enhanced by using optional DLLs which can be loaded into each sandboxed process on start by the SbieDll.dll file, the add-on manager in the global settings offers a couple of useful extensions, once installed they can be enabled here for the current box.</source>
         <oldsource>Sandboxies functionality can be enhanced using optional dll’s which can be loaded into each sandboxed process on start by the SbieDll.dll, the add-on manager in the global settings offers a couple useful extensions, once installed they can be enabled here for the current box.</oldsource>
-        <translation>沙盒功能可以使用可选的.dll文件来获得增强，这些.dll文件可以在SbieDll.dll启动时加载到每个沙盒进程中。全局设置中的插件管理器提供了一些有用的扩展。安装后，就可以在这里为当前的沙盒启用。</translation>
+        <translation>沙盒功能可使用可选的.dll文件来获得增强，这些.dll文件可以在SbieDll.dll启动时加载到每个沙盒进程中。全局设置中的扩展管理器提供了一些有用的扩展。安装后，就可以在这里为当前的沙盒启用。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2041"/>
@@ -12554,17 +12554,17 @@ Tooltips include version details, syntax requirements, and descriptions to help 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1710"/>
         <source>Add-Ons Manager</source>
-        <translation>加载项管理器</translation>
+        <translation>扩展管理器</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1720"/>
         <source>Optional Add-Ons</source>
-        <translation>可选加载项</translation>
+        <translation>可选扩展</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1728"/>
         <source>Sandboxie-Plus offers numerous options and supports a wide range of extensions. On this page, you can configure the integration of add-ons, plugins, and other third-party components. Optional components can be downloaded from the web, and certain installations may require administrative privileges.</source>
-        <translation>Sandboxie-Plus 提供丰富的选项，并支持多种扩展。您可以在此页面配置加载项、插件及其他第三方组件的集成。可从网络下载可选组件，安装某些组件可能需要管理员权限。</translation>
+        <translation>Sandboxie-Plus 提供丰富的选项，并支持多种扩展。您可以在此页面配置扩展、扩展及其他第三方组件的集成。可从网络下载可选组件，安装某些组件可能需要管理员权限。</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1764"/>
@@ -12584,7 +12584,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1782"/>
         <source>&lt;a href=&quot;sbie://addons&quot;&gt;update add-on list now&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://addons&quot;&gt;立即更新加载项列表&lt;/a&gt;</translation>
+        <translation>&lt;a href=&quot;sbie://addons&quot;&gt;立即更新扩展列表&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1792"/>
@@ -12594,7 +12594,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1802"/>
         <source>Add-On Configuration</source>
-        <translation>加载项配置</translation>
+        <translation>扩展配置</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1810"/>
@@ -12774,7 +12774,7 @@ Tooltips include version details, syntax requirements, and descriptions to help 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2212"/>
         <source>Keep add-on list up to date</source>
-        <translation>使加载项列表保持最新</translation>
+        <translation>使扩展列表保持最新</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2225"/>
