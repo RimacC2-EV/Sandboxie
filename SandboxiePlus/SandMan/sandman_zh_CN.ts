@@ -119,7 +119,7 @@
         <location filename="AddonManager.cpp" line="253"/>
         <source>Updater failed to perform add-on operation, error: %1</source>
         <oldsource>Updater failed to perform plugin operation, error: %1</oldsource>
-        <translation>加载项更新失败，错误： %1</translation>
+        <translation>加载项更新失败，错误：%1</translation>
     </message>
     <message>
         <location filename="AddonManager.cpp" line="169"/>
@@ -158,7 +158,7 @@
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="935"/>
         <source>This feature may reduce compatibility as it also prevents box located processes from writing to host located ones and even starting them.</source>
-        <translation>该功能可能会降低兼容性，因为它会阻止沙盒内的进程向主机进程写入数据，甚至启动它们。</translation>
+        <translation>该功能可能会降低兼容性，因为它会阻止沙盒内的进程向主机进程写入数据，甚至禁止启动它们。</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="941"/>
@@ -446,12 +446,12 @@ increases to 512 bits with the application of Leet (L337) speak modifications, a
     <message>
         <location filename="BoxTransfer.cpp" line="104"/>
         <source>Show sandbox aliases (reads archive configuration)</source>
-        <translation>显示沙盒别名（读取压缩包中的配置）</translation>
+        <translation>显示沙盒别名（读取归档中的配置）</translation>
     </message>
     <message>
         <location filename="BoxTransfer.cpp" line="105"/>
         <source>Disabled by default because reading aliases requires opening and extracting configuration from every selected archive.</source>
-        <translation>默认禁用，因为读取别名需要打开每个选中的压缩包，并从中提取配置。</translation>
+        <translation>默认禁用，因为读取别名需要打开每个选中的归档，并从中提取配置。</translation>
     </message>
     <message>
         <location filename="BoxTransfer.cpp" line="112"/>
@@ -491,7 +491,7 @@ increases to 512 bits with the application of Leet (L337) speak modifications, a
     <message>
         <location filename="BoxTransfer.cpp" line="698"/>
         <source>7-Zip Archive (*.7z);;Zip Archive (*.zip)</source>
-        <translation>7-zip 压缩包 (*.7z);;Zip 压缩包 (*.zip)</translation>
+        <translation>7-zip 归档 (*.7z);;Zip 归档 (*.zip)</translation>
     </message>
     <message>
         <location filename="BoxTransfer.cpp" line="681"/>
@@ -2801,7 +2801,7 @@ Choose autocomplete mode:
     <message>
         <location filename="Windows/OptionsForce.cpp" line="335"/>
         <source>Please enter Document File Extension.</source>
-        <translation>请输入文档文件加载项名。</translation>
+        <translation>请输入文档文件扩展名。</translation>
     </message>
     <message>
         <location filename="Windows/OptionsForce.cpp" line="345"/>
@@ -3020,7 +3020,7 @@ Choose autocomplete mode:
     <message>
         <location filename="Windows/OptionsRecovery.cpp" line="152"/>
         <source>Please enter a file extension to be excluded</source>
-        <translation>请输入一个要排除的文件加载项名</translation>
+        <translation>请输入一个要排除的文件扩展名</translation>
     </message>
     <message>
         <location filename="Windows/OptionsTemplates.cpp" line="56"/>
@@ -5577,7 +5577,7 @@ Error: %1</source>
     <message>
         <location filename="SbieProcess.cpp" line="78"/>
         <source>Windows Ink Services</source>
-        <translation>Windows 快捷方式服务</translation>
+        <translation>Windows 墨迹与手写服务</translation>
     </message>
     <message>
         <location filename="SbieProcess.cpp" line="79"/>
@@ -6696,13 +6696,13 @@ This is a temporary Patreon certificate, valid for 3 months. Once it nears expir
         <location filename="Windows/SettingsWindow.cpp" line="3387"/>
         <source>You are attempting to use a Renew-Key without having entered a pre-existing supporter certificate. Please note that this type of key (&lt;b&gt;as it is clearly stated in bold on the website&lt;/b) requires you to have a pre-existing valid supporter certificate; it is useless without one.</source>
         <oldsource>You are attempting to use a Renew-Key without having a preexisting supporter certificate. Please note that these type of key (&lt;b&gt;as it is clearly stated in bold on the website&lt;/b&gt;) require you to have a preexisting supporter certificate, it is useless without one.</oldsource>
-        <translation>您试图在未输入预先存在的赞助者证书的情况下使用续订密钥。请注意，这种类型的密钥（&lt;b&gt;正如网站上以粗体明确说明的那样&lt;/b）要求您拥有预先存在的有效赞助者证书；没有它是没有用的。</translation>
+        <translation>您试图在未输入预先存在的赞助者证书的情况下使用续订密钥。请注意，这种类型的密钥（&lt;b&gt;正如网站上以粗体明确说明的那样&lt;/b）要求您拥有预先存在的有效赞助者证书；没有它则毫无用处。</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3392"/>
         <source>&lt;br /&gt;&lt;br /&gt;&lt;u&gt;If you have not read the product description and obtained this key by mistake, please contact us via email (provided on our website) to resolve this issue.&lt;/u&gt;</source>
         <oldsource>&lt;br /&gt;&lt;br /&gt;&lt;u&gt;If you have not read the product description and got this key by mistake, please contact us by email (provided on our website) to resolve this issue.&lt;/u&gt;</oldsource>
-        <translation>&lt;br /&gt;&lt;br /&gt;&lt;u&gt;如果您没有阅读产品说明而错误地获取了此密钥，请通过电子邮件（在我们的网站上提供）联系我们来解决此问题。&lt;/u&gt;</translation>
+        <translation>&lt;br /&gt;&lt;br /&gt;&lt;u&gt;如果您没有阅读产品说明而错误地获取了此密钥，请通过我们在网站上提供的电子邮件联系我们来解决此问题。&lt;/u&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3407"/>
@@ -7786,7 +7786,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
     <message>
         <location filename="Windows/TestProxyDialog.cpp" line="146"/>
         <source>[%1] Loading a web page to test the proxy server.</source>
-        <translation>[%1] 加载一个互联网页面以测试代理服务器。</translation>
+        <translation>[%1] 加载一个网页以测试代理服务器。</translation>
     </message>
     <message>
         <location filename="Windows/TestProxyDialog.cpp" line="152"/>
@@ -8146,7 +8146,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
     <message>
         <location filename="Forms/CompressDialog.ui" line="14"/>
         <source>Compress Files</source>
-        <translation>压缩文件</translation>
+        <translation>归档</translation>
     </message>
     <message>
         <location filename="Forms/CompressDialog.ui" line="58"/>
@@ -8161,7 +8161,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
     <message>
         <location filename="Forms/CompressDialog.ui" line="41"/>
         <source>Encrypt archive content</source>
-        <translation>加密压缩文件内容</translation>
+        <translation>加密归档内容</translation>
     </message>
     <message>
         <location filename="Forms/CompressDialog.ui" line="48"/>
@@ -8171,12 +8171,12 @@ If you are a great patreaon supporter already, sandboxie can check online for an
     <message>
         <location filename="Forms/CompressDialog.ui" line="51"/>
         <source>Create Solide Archive</source>
-        <translation>创建固实压缩包</translation>
+        <translation>创建固实归档</translation>
     </message>
     <message>
         <location filename="Forms/CompressDialog.ui" line="75"/>
         <source>Export Sandbox to an archive, choose your compression rate and customize additional compression settings.</source>
-        <translation>将沙盒导出到压缩包，选择压缩率并自定义其他压缩设置。</translation>
+        <translation>将沙盒导出到归档，选择压缩率并自定义其他压缩设置。</translation>
     </message>
 </context>
 <context>
@@ -8202,7 +8202,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
     <message>
         <location filename="Forms/ExtractDialog.ui" line="59"/>
         <source>Import Sandbox from an archive</source>
-        <translation>从压缩文件导入沙盒</translation>
+        <translation>从归档导入沙盒</translation>
     </message>
     <message>
         <location filename="Forms/ExtractDialog.ui" line="49"/>
@@ -8767,7 +8767,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4393"/>
         <source>You can exclude folders and file types (or file extensions) from Immediate Recovery.</source>
-        <translation>可以在此处从快速恢复中排除特定目录和文件类型(加载项名)。</translation>
+        <translation>可以在此处从快速恢复中排除特定目录和文件类型(或扩展名)。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4326"/>
@@ -9085,7 +9085,7 @@ Note:  Forced Programs and Force Folders settings for a sandbox do not apply to 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4615"/>
         <source>Dlls &amp;&amp; Extensions</source>
-        <translation>Dll &amp;&amp; 加载项</translation>
+        <translation>Dll &amp;&amp; 扩展名</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4664"/>
@@ -9098,7 +9098,7 @@ Note:  Forced Programs and Force Folders settings for a sandbox do not apply to 
 This is done to prevent rogue processes inside the sandbox from creating a renamed copy of themselves and accessing protected resources. Another exploit vector is the injection of a library into an authorized process to get access to everything it is allowed to access. Using Host Image Protection, this can be prevented by blocking applications (installed on the host) running inside a sandbox from loading libraries from the sandbox itself.</source>
         <oldsource>Sandboxie’s resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. ‘ClosedFilePath=! iexplore.exe,C:Users*’ will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the “Access policies” page.
 This is done to prevent rogue processes inside the sandbox from creating a renamed copy of themselves and accessing protected resources. Another exploit vector is the injection of a library into an authorized process to get access to everything it is allowed to access. Using Host Image Protection, this can be prevented by blocking applications (installed on the host) running inside a sandbox from loading libraries from the sandbox itself.</oldsource>
-        <translation>Sandboxie 的资源访问规则通常会区别对待可执行文件位于沙盒内的程序。OpenFilePath 和 OpenKeyPath 仅适用于可执行文件原本位于宿主系统的应用程序。若要定义不受此限制的规则，必须使用 OpenPipePath 或 OpenConfPath。同样，所有通过排除程序定义的 Closed(File|Key|Ipc)Path 指令（例如“ClosedFilePath=!iexplore.exe,C:Users*”）对于可执行文件位于沙盒内的程序始终保持关闭。这两项限制策略都可在“访问策略”页面禁用。
+        <translation>Sandboxie 的资源访问规则通常会区别对待位于沙盒内的程序二进制文件。OpenFilePath 和 OpenKeyPath 仅适用于可执行文件原本位于宿主系统的应用程序。若要定义不受此限制的规则，必须使用 OpenPipePath 或 OpenConfPath。同样，所有通过排除程序定义的 Closed(File|Key|Ipc)Path 指令（例如“ClosedFilePath=!iexplore.exe,C:Users*”）对于可执行文件位于沙盒内的程序始终保持关闭。这两项限制策略都可在“访问策略”页面禁用。
 这样做是为了防止沙盒内的恶意进程创建自身的重命名副本并访问受保护资源。另一种攻击方式是向已获授权的进程注入库，从而获得该进程可访问的全部资源。启用宿主映像保护后，可以禁止在沙盒内运行、但安装于宿主系统的应用程序加载沙盒内的库，从而防止此类攻击。</translation>
     </message>
     <message>
@@ -10325,7 +10325,7 @@ Enabling this option uses a LOW integrity token instead, which may improve compa
     <message>
         <location filename="Forms/OptionsWindow.ui" line="5804"/>
         <source>No Expand</source>
-        <translation>禁用加载项</translation>
+        <translation>禁用展开</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="5814"/>
@@ -11776,7 +11776,7 @@ Enabling this option uses a LOW integrity token instead, which may improve compa
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1728"/>
         <source>Sandboxie-Plus offers numerous options and supports a wide range of extensions. On this page, you can configure the integration of add-ons, plugins, and other third-party components. Optional components can be downloaded from the web, and certain installations may require administrative privileges.</source>
-        <translation>Sandboxie-Plus 提供丰富的选项，并支持多种加载项。您可以在此页面配置加载项、加载项及其他第三方组件的集成。可从网络下载可选组件，安装某些组件可能需要管理员权限。</translation>
+        <translation>Sandboxie-Plus 提供丰富的选项，并支持多种加载项。您可以在此页面配置加载项、插件及其他第三方组件的集成。可选组件可从网络下载，安装某些组件可能需要管理员权限。</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1764"/>
