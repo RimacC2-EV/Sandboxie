@@ -1286,7 +1286,7 @@ You can click Finish to close this wizard.</oldsource>
     <message>
         <location filename="Windows/EditorSettingsWindow.cpp" line="46"/>
         <source>Show Future Settings</source>
-        <translation>显示未来设置</translation>
+        <translation>显示未来版本设置</translation>
     </message>
     <message>
         <location filename="Windows/EditorSettingsWindow.cpp" line="47"/>
@@ -1296,7 +1296,7 @@ You can click Finish to close this wizard.</oldsource>
     <message>
         <location filename="Windows/EditorSettingsWindow.cpp" line="47"/>
         <source>Shown (default)</source>
-        <translation>显示 (默认)</translation>
+        <translation>显示（默认）</translation>
     </message>
     <message>
         <location filename="Windows/EditorSettingsWindow.cpp" line="58"/>
@@ -6598,7 +6598,7 @@ This is a temporary Patreon certificate, valid for 3 months. Once it nears expir
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="324"/>
         <source>Arabic (Morocco) - LTR</source>
-        <translation>阿拉伯语 (摩洛哥) - 左到右</translation>
+        <translation>阿拉伯语（摩洛哥，从左到右）</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="343"/>
