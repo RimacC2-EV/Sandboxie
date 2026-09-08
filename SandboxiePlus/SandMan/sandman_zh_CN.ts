@@ -65,7 +65,7 @@
     <message>
         <location filename="AddonManager.cpp" line="155"/>
         <source>Do you want to download and install %1?</source>
-        <translation>是否下载并安装 %1 ？</translation>
+        <translation>是否下载并安装 %1？</translation>
     </message>
     <message>
         <location filename="AddonManager.cpp" line="161"/>
@@ -168,7 +168,7 @@
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="942"/>
         <source>This feature can cause a decline in the user experience because it also prevents normal screenshots.</source>
-        <translation>该功能可能降低用户体验，因为它也阻止正常的屏幕截图。</translation>
+        <translation>此功能可能降低用户体验，因为它也会阻止正常的屏幕截图。</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="947"/>
@@ -491,7 +491,7 @@ increases to 512 bits with the application of Leet (L337) speak modifications, a
     <message>
         <location filename="BoxTransfer.cpp" line="698"/>
         <source>7-Zip Archive (*.7z);;Zip Archive (*.zip)</source>
-        <translation>7-zip 归档 (*.7z);;Zip 归档 (*.zip)</translation>
+        <translation>7-Zip 归档 (*.7z);;Zip 归档 (*.zip)</translation>
     </message>
     <message>
         <location filename="BoxTransfer.cpp" line="681"/>
@@ -741,8 +741,8 @@ This ensures the utmost level of privacy and data protection within the confiden
         <oldsource>In this box type the sandbox uses an encrypted disk image as its root folder. This provides an additional layer of privacy and security.
 Access to the virtual disk when mounted is restricted to programs running within the sandbox. Sandboxie prevents other processes on the host system from accessing the sandboxed processes.
 This ensures the utmost level of privacy and data protection within the confidential sandbox environment.</oldsource>
-        <translation>该种沙盒使用加密的磁盘映像作为根目录，为安全性与隐私性提供了额外的保障。
-仅沙盒内程序可访问挂载的虚拟磁盘映像。Sandboxie 可阻止主机进程访问沙盒进程。
+        <translation>该种沙盒使用加密的虚拟磁盘映像作为根目录，为安全性与隐私性提供了额外的保障。
+仅沙盒内程序可访问挂载的磁盘映像。Sandboxie 可阻止主机进程访问沙盒进程。
 这可确保此沙盒环境中最高级别的隐私与数据保护水平。</translation>
     </message>
     <message>
@@ -763,7 +763,7 @@ This ensures the utmost level of privacy and data protection within the confiden
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="484"/>
         <source>Standard Isolation Sandbox (Default)</source>
-        <translation>标准隔离沙盒(默认)</translation>
+        <translation>标准隔离沙盒（默认）</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="486"/>
@@ -784,7 +784,7 @@ This ensures the utmost level of privacy and data protection within the confiden
         <location filename="Wizards/NewBoxWizard.cpp" line="616"/>
         <source>To use encrypted boxes you need to install the ImDisk driver, do you want to download and install it?</source>
         <oldsource>To use ancrypted boxes you need to install the ImDisk driver, do you want to download and install it?</oldsource>
-        <translation>若要使用加密沙盒，需要安装 ImDisk 驱动，您要下载安装它吗？</translation>
+        <translation>要使用加密沙盒，需安装 ImDisk 驱动，是否现在下载安装？</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="506"/>
@@ -8350,7 +8350,7 @@ If you are a great patreaon supporter already, sandboxie can check online for an
     <message>
         <location filename="Forms/OptionsWindow.ui" line="730"/>
         <source>kilobytes</source>
-        <translation>千字节 (KB)</translation>
+        <translation>KB</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="823"/>
@@ -11816,7 +11816,7 @@ Enabling this option uses a LOW integrity token instead, which may improve compa
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1817"/>
         <source>kilobytes</source>
-        <translation>千字节 (KB)</translation>
+        <translation>KB</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1870"/>
