@@ -3412,7 +3412,7 @@ Please select a folder which contains this file.</source>
     <message>
         <location filename="Windows/PopUpWindow.cpp" line="315"/>
         <source>Do you want to allow the print spooler to write outside the sandbox for %1 (%2)?</source>
-        <translation>要允许 %1 (%2) 利用打印处理服务在沙盒外写入吗？</translation>
+        <translation>是否允许 %1 (%2) 通过打印服务在沙盒外写入？</translation>
     </message>
     <message>
         <location filename="Windows/PopUpWindow.cpp" line="497"/>
