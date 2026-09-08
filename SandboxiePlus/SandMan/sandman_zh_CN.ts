@@ -2446,7 +2446,7 @@ Note: The update check is often behind the latest GitHub release to ensure that 
     <message>
         <location filename="Windows/OptionsGeneral.cpp" line="89"/>
         <source>Application Compartment</source>
-        <translation>应用隔间</translation>
+        <translation>应用程序隔离沙盒</translation>
     </message>
     <message>
         <location filename="Windows/OptionsGeneral.cpp" line="142"/>
@@ -3793,7 +3793,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     <message>
         <location filename="SbiePlusAPI.cpp" line="642"/>
         <source>Application Compartment</source>
-        <translation>应用隔间</translation>
+        <translation>应用程序隔离沙盒</translation>
     </message>
     <message>
         <location filename="SbiePlusAPI.cpp" line="644"/>
@@ -4638,7 +4638,7 @@ This box &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;prevents access to a
 Please check if there is an update for sandboxie.</source>
         <oldsource>Your Windows build %1 exceeds the current support capabilities of your Sandboxie version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.
 Please check if there is an update for sandboxie.</oldsource>
-        <translation>您当前的 Windows 版本（%1）已超出此 Sandboxie 版本的支持范围，已禁用基于令牌的安全隔离。所有应用将运行在无安全隔离的应用隔间模式下。请检查是否有 Sandboxie 更新。</translation>
+        <translation>您当前的 Windows 版本（%1）已超出此 Sandboxie 版本的支持范围，已禁用基于令牌的安全隔离。所有应用将运行在无安全隔离的应用程序隔离沙盒模式下。请检查是否有 Sandboxie 更新。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2989"/>
@@ -9466,7 +9466,7 @@ The process match level has a higher priority than the specificity and describes
         <location filename="Forms/OptionsWindow.ui" line="1525"/>
         <source>Security Isolation through the usage of a heavily restricted process token is Sandboxie&apos;s primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it&apos;s no longer providing reliable security, just simple application compartmentalization.</source>
         <oldsource>Security Isolation through the usage of a heavily restricted process token is Sandboxie&apos;s primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it’s no longer providing reliable security, just simple application compartmentalization.</oldsource>
-        <translation>通过严格限制进程令牌的使用来进行安全隔离是 Sandboxie 执行沙盒化限制的主要手段，当它禁用时，沙盒将在应用隔间模式下运行，此时将不再提供可靠的安全限制，只是简单进行应用分隔。</translation>
+        <translation>通过严格限制进程令牌的使用来进行安全隔离是 Sandboxie 执行沙盒化限制的主要手段，当它禁用时，沙盒将在应用程序隔离沙盒模式下运行，此时将不再提供可靠的安全限制，只是简单进行应用分隔。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1094"/>
